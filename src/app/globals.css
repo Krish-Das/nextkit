@@ -15,7 +15,11 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-mona), var(--font-inter), Arial, Helvetica, sans-serif;
+  font-feature-settings:
+    "ss01" on,
+    "ss05" on,
+    "ss06" on;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -24,4 +28,10 @@ body {
   html {
     color-scheme: dark;
   }
+}
+
+@theme {
+  --font-inter: var(--font-inter), Arial, Helvetica, sans-serif;
+  --font-mona: var(--font-mona), Arial, Helvetica, sans-serif;
+  --font-geist-mono: var(--font-geist-mono), Arial, Helvetica, sans-serif;
 }
