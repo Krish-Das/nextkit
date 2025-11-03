@@ -19,7 +19,15 @@
   },
   "files": {
     "ignoreUnknown": true,
-    "includes": ["**", "!node_modules", "!.next", "!dist", "!build"]
+    "includes": [
+      "**",
+      "!node_modules",
+      "!.next",
+      "!dist",
+      "!build",
+      "!packages/ui/src/styles.css",
+      "!**/next-env.d.ts"
+    ]
   },
   "formatter": {
     "enabled": true,
