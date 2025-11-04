@@ -1,15 +1,5 @@
 # Turborepo Tailwind CSS starter with Biome
 
-This Turborepo starter is maintained by the Turborepo core team.
-
-## Using this example
-
-Run the following command:
-
-```sh
-bunx create-turbo@latest -e with-tailwind
-```
-
 ## What's inside?
 
 This Turborepo includes the following packages/apps:
@@ -36,7 +26,6 @@ Another option is to consume `packages/ui` directly from source without building
 
 If you choose this strategy, you can remove the `tailwindcss` dependency from the `ui` package.
 
-
 ### Utilities
 
 This Turborepo has some additional tools already setup for you:
@@ -58,3 +47,40 @@ Key features:
 Biome (the underlying engine) provides extremely fast Rust-based linting and formatting. Most issues are automatically fixable.
 
 The configuration is defined in `biome.json` and extends Ultracite presets for both core JavaScript/TypeScript and Next.js specific rules.
+
+## Cloning:
+
+### Clone Nextkit:
+
+```sh
+git clone -b monorep-with-tailwind https://github.com/Krish-Das/nextkit.git
+```
+
+### or Clone in current directory:
+
+```sh
+git clone -b monorep-with-tailwind https://github.com/Krish-Das/nextkit.git .
+```
+
+### or Clone single branch in current directory:
+
+```sh
+git clone -b monorep-with-tailwind --single-branch https://github.com/Krish-Das/nextkit.git .
+```
+
+### or Clone in a pre-existing repository (detached HEAD):
+
+1. Fetch the remote branch:
+   ```sh
+   git fetch https://github.com/Krish-Das/nextkit.git monorep-with-tailwind
+   ```
+2. Create and checkout a new branch:
+   ```sh
+   git checkout -b monorep-with-tailwind FETCH_HEAD
+   ```
+
+## Running locally
+
+```sh
+bunx turbo dev
+```
