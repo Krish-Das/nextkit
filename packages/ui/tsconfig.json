@@ -4,12 +4,6 @@
     "outDir": "dist",
     "strictNullChecks": true
   },
-  "include": [
-    "src"
-  ],
-  "exclude": [
-    "dist",
-    "build",
-    "node_modules"
-  ]
+  "include": ["src"],
+  "exclude": ["dist", "build", "node_modules"]
 }

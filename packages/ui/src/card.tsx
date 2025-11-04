@@ -1,13 +1,13 @@
-import { type ReactNode } from "react";
+import type { ReactNode } from "react"
 
 export function Card({
   title,
   children,
   href,
 }: {
-  title: string;
-  children: ReactNode;
-  href: string;
+  title: string
+  children: ReactNode
+  href: string
 }) {
   return (
     <a
@@ -16,7 +16,7 @@ export function Card({
       rel="noopener noreferrer"
       target="_blank"
     >
-      <h2 className="ui:mb-3 ui:text-2xl ui:font-semibold">
+      <h2 className="ui:mb-3 ui:font-semibold ui:text-2xl">
         {title}{" "}
         <span className="ui:inline-block ui:transition-transform group-hover:ui:translate-x-1 motion-reduce:ui:transform-none">
           -&gt;
@@ -26,5 +26,5 @@ export function Card({
         {children}
       </p>
     </a>
-  );
+  )
 }
