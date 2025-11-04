@@ -33,7 +33,7 @@ export default function Page() {
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed top-0 left-0 flex w-full justify-center border border-neutral-800 from-inherit px-4 pt-8 pb-6 backdrop-blur-2xl lg:static lg:w-auto lg:rounded-xl lg:p-4">
           examples/with-tailwind -&nbsp;
-          <code className="font-bold font-mono">docs</code>
+          <code className="font-bold font-mono">base</code>
         </p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center lg:static lg:h-auto lg:w-auto">
           <a

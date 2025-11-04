@@ -1,10 +1,10 @@
 {
-  "name": "docs",
+  "name": "base",
   "version": "1.0.0",
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 3000",
+    "dev": "next dev --port 1200",
     "build": "next build",
     "start": "next start",
     "check-types": "next typegen && tsc --noEmit"
