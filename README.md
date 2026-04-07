@@ -1,3 +1,5 @@
+Update readme parallel to update bun
+
 # Nextkit - A nextjs starter kit (DEVELOPEMENT)
 
 Accelerate NextJS development with Nextkit: a pre-configured Next.js,
